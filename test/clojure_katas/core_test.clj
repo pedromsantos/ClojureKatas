@@ -13,3 +13,7 @@
 (deftest should-return-fizz-for-number-3 
   (is (= (fizzBuzz 3) "fizz"))
 )
+
+(deftest should-return-fizz-for-number-6 
+  (is (= (fizzBuzz 6) "fizz"))
+)
