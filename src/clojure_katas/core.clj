@@ -3,7 +3,5 @@
 (defn fizzBuzz [n] 
         (cond 
                 (= (rem n 3) 0) "fizz"
-                (= n 5) "buzz"
-                (= n 10) "buzz"
-                (= n 15) "buzz"
+                (= (rem n 5) 0) "buzz"
                 :else n))
