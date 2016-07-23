@@ -1,0 +1,2 @@
+# ClojureKatas
+Katas in Clojure
