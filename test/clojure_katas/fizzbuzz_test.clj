@@ -1,4 +1,4 @@
-(ns clojure-kateas.fizzbuzz-test
+(ns clojure-katas.fizzbuzz-test
   (:require [clojure.test :refer :all]
             [clojure-katas.fizzbuzz :refer :all]))
 
