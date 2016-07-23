@@ -2,6 +2,6 @@
   (:require [clojure.test :refer :all]
             [clojure-katas.core :refer :all]))
 
-(deftest a-test1
-  (testing "Basic tests"
-    ))
+(deftest should-return-one-for-number-1 
+  (is (= (fizzBuzz 1) 1))
+)
