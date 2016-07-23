@@ -21,3 +21,7 @@
 (deftest should-return-fizz-for-number-9 
   (is (= (fizzBuzz 9) "fizz"))
 )
+
+(deftest should-return-buzz-for-number-5 
+  (is (= (fizzBuzz 5) "buzz"))
+)
