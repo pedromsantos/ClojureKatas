@@ -3,15 +3,15 @@
             [clojure-katas.core :refer :all]))
 
 (deftest should-fizzbuzz-number 
-  (is (= (fizzBuzz 1) 1))
-  (is (= (fizzBuzz 2) 2))
-  (is (= (fizzBuzz 3) "fizz"))
-  (is (= (fizzBuzz 6) "fizz"))
-  (is (= (fizzBuzz 9) "fizz"))
-  (is (= (fizzBuzz 5) "buzz"))
-  (is (= (fizzBuzz 10) "buzz"))
-  (is (= (fizzBuzz 20) "buzz"))
-  (is (= (fizzBuzz 15) "fizzbuzz"))
-  (is (= (fizzBuzz 30) "fizzbuzz"))
-  (is (= (fizzBuzz 45) "fizzbuzz"))
-)
+  (are [number expected] (= expected (fizzBuzz number))
+    1 "1"
+    2 "2"
+    3 "fizz"
+    6 "fizz"
+    9 "fizz"
+    5 "buzz"
+    10 "buzz"
+    20 "buzz"
+    15 "fizzbuzz"
+    30 "fizzbuzz"
+    45 "fizzbuzz"))
