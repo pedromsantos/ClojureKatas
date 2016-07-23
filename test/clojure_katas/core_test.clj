@@ -41,3 +41,7 @@
 (deftest should-return-fizzbuzz-for-number-30 
   (is (= (fizzBuzz 30) "fizzbuzz"))
 )
+
+(deftest should-return-fizzbuzz-for-number-45 
+  (is (= (fizzBuzz 45) "fizzbuzz"))
+)
