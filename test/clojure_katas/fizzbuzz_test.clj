@@ -1,6 +1,6 @@
-(ns clojure-katas.core-test
+(ns clojure-katas.fizzbuzz-test
   (:require [clojure.test :refer :all]
-            [clojure-katas.core :refer :all]))
+            [clojure-katas.fizzbuzz :refer :all]))
 
 (deftest should-fizzbuzz-number 
   (are [number expected] (= expected (fizzBuzz number))

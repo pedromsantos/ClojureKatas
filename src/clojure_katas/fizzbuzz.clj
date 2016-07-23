@@ -1,4 +1,4 @@
-(ns clojure-katas.core)
+(ns clojure-katas.fizzbuzz)
 
 (defn fizzBuzz [n] 
   (let [divisible-by? #(= 0 (rem %2 %1))
